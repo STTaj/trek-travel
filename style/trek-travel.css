@@ -24,6 +24,10 @@ nav {
     margin-bottom: 50px;
 }
 
+#travel-logo{
+    color: #FF5400;;
+
+}
 .nav-left {
     display: flex;
 }
@@ -98,7 +102,7 @@ nav a {
     align-items: center;
     height: 100vh; /* Adjust this based on your layout */
   }
-  
+
 .header-input {
     display: inline-flex;
     padding: 16px;
