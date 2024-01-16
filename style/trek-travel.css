@@ -200,6 +200,12 @@ nav a {
 
 
 /*  Destination Section */
+.destination {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
 .destination-header {
     color: #131318;
     text-align: center;
@@ -210,7 +216,6 @@ nav a {
 .destination-para {
     margin: 20px 390px;
     text-align: center;
-
 }
 
 .destination-grid-img img {
@@ -301,7 +306,61 @@ nav a {
     font-weight: bold;
 }
 
+/* Why Choose Us Section */
+.choose-ue {
+    padding-top: 450px;
+}
 
+.choocse-us-header {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.top-choose-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.top-choocse-us-left {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    padding: 50px 50px 32px 50px;
+    align-items: center;
+}
+
+.top-choocse-us-right {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    padding: 50px 50px 32px 50px;
+    align-items: center;
+}
+
+.bottom-choocse-us {
+    margin: 20px 230px;
+    width: 573px;
+    height: 200px;
+    align-items: center;
+    padding: 50px 50px 32px 50px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
 
 
 
