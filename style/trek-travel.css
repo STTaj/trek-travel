@@ -366,12 +366,56 @@ nav a {
 
 
 
+/* Place section */
+.place-main{
+    display: flex;
+    padding-bottom: 100px;
+}
 
+.place-title{
+    width: 448px;
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-weight: 800px;
+}
+.place-pera{
+    width: 532px;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
 
+/* tst */
+.testimonial{
+    text-align: center;
+}
+.small-title-tst{
+    color: #0b2494;
 
+}
 
+.main-title-tst{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
 
+.tst-lists{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 
+}
+
+.tst-list{
+    border: 1px solid blue;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+.tst-list img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
 /* NewsLetter */
 .newsletter {
