@@ -195,7 +195,118 @@ nav a {
 }
 
 
+
+
+
+
 /*  Destination Section */
+.destination-header {
+    color: #131318;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.destination-para {
+    margin: 20px 390px;
+    text-align: center;
+
+}
+
+.destination-grid-img img {
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.destination-grid-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: auto;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.grid-img-1 {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+}
+
+.grid-img-2 {
+    grid-column: 7 / span 6;
+    grid-row: 1 /span 1;
+
+}
+
+.grid-img-3 {
+    grid-column: 1 / span 4;
+    grid-row: 2 /span 1;
+}
+
+.grid-img-4 {
+    grid-column: 5 / span 5;
+    grid-row: 2 /span 1;
+}
+
+.grid-img-5 {
+    grid-column: 10 / span 3;
+    grid-row: 2 /span 1;
+}
+
+.grid-img-6 {
+    grid-column: 1 / span 5;
+    grid-row: 3 /span 1;
+}
+
+.grid-img-7 {
+    grid-column: 6 / span 7;
+    grid-row: 3 /span 1;
+}
+
+.grid-img-1,
+.grid-img-2,
+.grid-img-3,
+.grid-img-4,
+.grid-img-5,
+.grid-img-6,
+.grid-img-7 {
+    position: relative;
+}
+
+.grid-img-1 img,
+.grid-img-2 img,
+.grid-img-3 img,
+.grid-img-4 img,
+.grid-img-5 img,
+.grid-img-6 img,
+.grid-img-7 img {
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 /* Responsive For Phone*/
 
@@ -204,8 +315,29 @@ nav a {
         margin: 0px 0px;
     }
 
-    .input-in-banner {
+    header {
+        padding: 0 20px;
+    }
+
+    .header-input {
         flex-direction: column;
+    }
+
+    .header-sections {
+        width: 335px;
+        height: 483px;
+        background-size: auto;
+
+    }
+
+    .full-nav {
+        flex-direction: column;
+        padding: 18px 20px;
+        width: 300px;
+    }
+
+    .nav-right {
+        display: none;
     }
 
     .tour-section {
