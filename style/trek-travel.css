@@ -378,6 +378,7 @@ nav a {
     display: flex;
     gap: 24px;
 }
+
 .newsl-letter-input {
     width: 48%;
     width: 474px;
@@ -385,9 +386,11 @@ nav a {
     border-radius: 16px;
     border: 1px solid #0b2494;
 }
+
 .news-letter-img img {
     object-fit: cover;
 }
+
 .input-newslatter {
     display: block;
     margin: 24px 10px;
@@ -397,6 +400,7 @@ nav a {
     background: rgba(19, 19, 24, 0.05);
     width: 390px;
 }
+
 .input-button-letter {
     width: 174px;
     height: 52px;
@@ -409,6 +413,42 @@ nav a {
     width: 390px;
     color: #FFF;
 }
+
+
+#footer {
+    max-width: 1440;
+    margin-top: 110px;
+    width: 1440px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 110px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-para {
+    color: #5A5A5D;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.footer-icons {
+    margin-top: 32px;
+    color: black;
+    gap: 30px;
+    font-size: 2rem;
+}
+
 
 
 /* Responsive For Phone*/
