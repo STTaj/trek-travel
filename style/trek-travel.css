@@ -608,10 +608,13 @@ nav a {
     /* re writing the padding */
     *{
         margin: 10px 5px;
-        display: grid;
     }
     *{
         padding:20px 10px;
+    }
+
+    body{
+        display: grid;
     }
     .header-input, .tour-section, .full-nav, .tst-lists, .place-main, .top-choose-box, .newsletter{
         flex-direction: column;
