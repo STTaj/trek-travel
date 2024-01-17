@@ -12,9 +12,8 @@ body {
 }
 
 /* Header Section */
-header,
-main {
-    padding: 52px 135px;
+header, main {
+    padding: 80px 100px;
 }
 
 /* nav section */
@@ -63,9 +62,9 @@ nav a {
 
 /* Header Section */
 .header {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Rectangle\ 5.png);
-    width: 1170px;
-    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Rectangle\ 5.png");
+    /* width: 1170px; */
+    /* height: 500px; */
     border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +84,7 @@ nav a {
 }
 
 .main-title-dec {
-    width: 676px;
+    /* width: 676px; */
     margin: 0 auto;
     color: #FFF;
     font-weight: 400;
@@ -116,20 +115,20 @@ nav a {
 .header-input-fild {
     border-radius: 8px;
     background: #FFF;
-    width: 174px;
-    height: 52px;
+    /* width: 174px; */
+    /* height: 52px; */
     border: none;
-    padding-left: 15px;
+    padding: 15px 20px;
 }
 
 .header-search {
     border-radius: 8px;
     background: #0b2494;
-    ;
     width: 174px;
-    height: 52px;
+    /* height: 52px; */
     font-size: 16px;
     font-weight: 700;
+    padding: 15px 20px;
     align-items: center;
     border: none;
 }
@@ -154,7 +153,7 @@ nav a {
 
 .tour-sectoin-text {
     margin-left: 20px;
-    width: 36.0625rem;
+    /* width: 36.0625rem; */
 }
 
 #tour-title {
@@ -167,10 +166,7 @@ nav a {
 .tour-inline {
     margin-top: 24px;
     color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
-    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 26px;
 }
 
@@ -181,7 +177,6 @@ nav a {
 
 .tour-image {
     margin: 5%;
-
 }
 
 .input-button {
@@ -189,8 +184,9 @@ nav a {
     color: #FFF;
     border-radius: 8px;
     background: #0b2494;
-    width: 174px;
-    height: 52px;
+    /* width: 174px; */
+    /* height: 52px; */
+    padding: 15px 20px;
     border: none;
 }
 
@@ -214,7 +210,8 @@ nav a {
 }
 
 .destination-para {
-    margin: 20px 390px;
+    margin: 3% 25%;
+    /* margin: 20px 390px; */
     text-align: center;
 }
 
@@ -232,7 +229,7 @@ nav a {
     border-radius: 10px;
     justify-content: space-around;
     padding: auto;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
     position: relative;
 }
@@ -308,8 +305,8 @@ nav a {
 
 /* Why Choose Us Section */
 .choose-ue {
-    padding-top: 450px;
-    padding-bottom: 100px;
+    padding-top: 10%;
+    padding-bottom: 8%;
 }
 
 .choocse-us-header {
@@ -338,8 +335,8 @@ nav a {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 573px;
-    padding: 50px 50px 32px 50px;
+    /* width: 573px; */
+    padding: 50px 30px;
     align-items: center;
 }
 
@@ -347,71 +344,177 @@ nav a {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
-    padding: 50px 50px 32px 50px;
+    /* width: 573px; */
+    padding: 50px 30px;
     align-items: center;
 }
 
 .bottom-choocse-us {
-    margin: 20px 230px;
-    width: 573px;
-    height: 200px;
+    margin: 30px auto;
+    width: 60%;
+    /* height: 200px; */
     align-items: center;
-    padding: 50px 50px 32px 50px;
+    padding: 50px 30px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* Deals & Discounts */
 
+#frst-deal {
+    /* width: 1170px; */
+    /* height: 500px; */
+    padding: 5%;
+    border-radius: 16px;
+    background: url("../Images/Group\ 39.png"), lightgray 50%;
+    background-size:  cover;
+    background-repeat:  no-repeat;
+}
+.sec-deal  {
+    margin: 24px 0px;
+    padding: 5%;
+    /* width: 1170px;
+    height: 500px; */
+    border-radius: 16px;
+    background: url("../Images/Group\ 40.png"), lightgray 50%;
+    background-size:  cover;
+    background-repeat:  no-repeat;
+}
+.thir-deal {
+    /* width: 1170px;
+    height: 500px; */
+    margin: 24px 0px;
+    padding: 5%;
+    border-radius: 16px;
+    background: url("../Images/Group\ 39.png"), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-deal-input {
+    /* width: 579px;
+    height: 389px; */
+    width: 60%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 5% 5% 5% 40%;
+}
+.sec-deal-input {
+    /* width: 579px;
+    height: 389px; */
+    width: 60%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 5% 40% 5% 5%;
+}
+.thrd-deal-input {
+    /* width: 579px;
+    height: 389px; */
+    width: 60%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 5% 5% 5% 40%;
+}
+/* Deal Input */
+.deal-icon{
+    color: #FF5400;
+    margin: 20px 40px;
+    gap: 20px;
+}
+.deals-head {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 40px;
+    /* text-align: left; */
+}
+.deals-para {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 40px;
+}
+.deals-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 40px;
+}
+.deals-btn {
+    /* width: 150px;
+    height: 52px; */
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+    margin: 40px 40px;
 
+}
+.deals-btn:hover {
+    background-color: #6a2604;
+    color: #FFF;
+}
 
 /* Place section */
-.place-main{
+.place-main {
     display: flex;
-    padding-bottom: 100px;
+    gap: 20px;
+    padding: 80px 100px;
 }
 
-.place-title{
-    width: 448px;
+.place-title {
+    /* width: 448px; */
     padding-bottom: 24px;
     font-size: 40px;
-    font-weight: 800px;
+    font-weight: 800;
 }
-.place-pera{
-    width: 532px;
+
+.place-pera {
+    /* width: 532px; */
     font-size: 16px;
     padding-bottom: 24px;
 }
 
 /* tst */
-.testimonial{
+.testimonial {
     text-align: center;
 }
-.small-title-tst{
+
+.small-title-tst {
     color: #0b2494;
 
 }
 
-.main-title-tst{
+.main-title-tst {
     font-size: 40px;
     padding-bottom: 30px;
 }
 
-.tst-lists{
+.tst-lists {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
 
 }
 
-.tst-list{
+.tst-list {
     border: 1px solid blue;
     background-color: aliceblue;
     padding: 20px;
     margin: 20px;
 }
-.tst-list img{
+
+.tst-list img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -425,8 +528,8 @@ nav a {
 
 .newsl-letter-input {
     width: 48%;
-    width: 474px;
-    height: 422px;
+    /* width: 474px; */
+    /* height: 422px; */
     border-radius: 16px;
     border: 1px solid #0b2494;
 }
@@ -442,37 +545,41 @@ nav a {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    width: 390px;
+    /* width: 390px; */
+    width: 80%;
 }
 
 .input-button-letter {
-    width: 174px;
-    height: 52px;
+    /* width: 174px;
+    height: 52px; */
+    padding: 15px 20px;
+    width: 80%;
     border-radius: 8px;
     border: none;
     background: #0b2494;
     cursor: pointer;
     transition: 0.3s;
-    margin: 20px 39px;
-    width: 390px;
+    /* margin: 20px 39px; */
+    margin: 3% 8%;
+    /* width: 390px; */
     color: #FFF;
 }
 
 
 #footer {
-    max-width: 1440;
+    /* max-width: 1440; */
     margin-top: 110px;
-    width: 1440px;
-    margin-left: 0;
-    margin-right: 0;
+    /* width: 1440px; */
+    /* margin-left: 0; */
+    margin-right: 0px !important;
     padding-top: 110px;
-    height: 502px;
+    /* height: 502px; */
+    width: 100%;
     background: rgba(19, 19, 24, 0.05);
 }
 
 .footer-para {
     color: #5A5A5D;
-
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -498,40 +605,36 @@ nav a {
 /* Responsive For Phone*/
 
 @media screen and (max-width:600px) {
-    body {
-        margin: 0px 0px;
+    /* re writing the padding */
+    *{
+        margin: 10px 5px;
+        display: grid;
     }
-
-    header {
-        padding: 0 20px;
+    *{
+        padding:20px 10px;
     }
-
-    .header-input {
+    .header-input, .tour-section, .full-nav, .tst-lists, .place-main, .top-choose-box, .newsletter{
         flex-direction: column;
     }
-
     .header-sections {
-        width: 335px;
-        height: 483px;
+        /* width: 335px;
+        height: 483px; */
         background-size: auto;
 
     }
-
-    .full-nav {
-        flex-direction: column;
-        padding: 18px 20px;
-        width: 300px;
-    }
-
     .nav-right {
         display: none;
     }
-
-    .tour-section {
-        flex-direction: column;
-    }
-
     .tour-sectoin-text {
         margin-left: 20px;
+    }
+    .destination-grid-img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    
+    .grid-img-1, .grid-img-2, .grid-img-3, .grid-img-4, .grid-img-5, .grid-img-6, .grid-img-7{
+        grid-column: 1/ span 12;
+        grid-row: auto;
     }
 }
